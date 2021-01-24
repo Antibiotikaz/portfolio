@@ -1,0 +1,100 @@
+@import '../styles/varaibles.scss';
+.containerNavigation {
+    background-image: url('../assets/images/hero_2.jpg');
+    height: 100vh;
+    position: relative;
+    .navContainer{
+        border-bottom: 1px solid rgba(255,255,255,.2);
+     
+        nav {
+            width: 60%;
+            margin: 0 auto;
+            display: flex;
+            padding: 1.5rem 0;
+            h1 {
+                font-size: $logo-font;
+                color:$white;
+                .point {
+                    color: $blue;
+                }
+            }
+            ul {
+                
+                display: flex;
+                margin: 0 auto;
+                justify-content: space-between;
+                li {
+                    a {
+                        padding: 5px 20px;
+                        text-decoration: none;
+                        font-size: $medium-font-size;
+                        color: $navTextColor;
+                        cursor: pointer;
+                        &:hover {
+                            color:$navTextHover
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .heroBanner {
+        width: 50%;
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate( -50%, -50%);
+ 
+        h1 {
+            font-size: $hero-h1;
+            font-weight: $font-weight-very-strong;
+            color:$white;
+            margin-bottom: 0.5rem;
+        }
+        p {
+           font-size: $medium-font-size;
+           font-weight: $font-weight-light; 
+           color:$white;
+           margin-bottom: 0.5rem;
+        }
+
+        button {
+            background-color: $blue;
+            border: none;
+            border-radius: $button-radius;
+            font-size: $small-font;
+            padding: 10px 30px;
+            color: $white;
+            margin-bottom: 0.5rem;
+            display: block;
+            margin: 0 auto;
+            
+        }
+     
+    }
+
+    .heroButton {
+      
+        margin: 0 auto;
+       position: absolute;
+       bottom: 0; 
+       left: 50%;
+       transform: translate( -50%);
+       a {
+   
+        
+           .mouseIcon {
+            height: 45px;
+            width: 25px;
+            cursor: pointer;
+            border:2px solid $mouseIcon;
+           border-radius: 15px;
+           }
+       }
+       
+    }
+
+} 

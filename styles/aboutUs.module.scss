@@ -1,0 +1,56 @@
+
+@import '../styles/varaibles.scss';
+.aboutUsContainer {
+    padding: 5rem 0;
+    h1 {
+        text-align: center;
+        font-size: $Font40px;
+        color: $blue;
+        font-weight: $font-weight-very-strong;
+        margin: 3rem 0
+    }
+
+    .contentBox {
+        width: 60%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        img {
+            width: 50%;
+            height: auto;
+           
+        }
+        .textBox {
+            
+            width: 40%;
+            h2 {
+                font-weight: $font-weight-medium;
+                font-size: $Font175rem;
+                margin-bottom: 1.5rem;
+                color: $black;
+
+            }
+            p {
+                margin-bottom: 1.5rem;
+                font-size: $small-font;
+                color: $grey;
+                line-height: 1.7;
+                font-weight: $font-weight-medium-light;
+            }
+            ul {
+                li{
+                    line-height: 1.5;
+                    font-size: $small-font;
+                    color: $grey;
+                    font-weight: $font-weight-medium-light;
+                    position: relative;
+                    margin-bottom: 15px;
+                    span{
+                        padding-right: 25px;
+                        color:#71bc42;
+                    }
+                }
+            }
+        }
+    }
+}
