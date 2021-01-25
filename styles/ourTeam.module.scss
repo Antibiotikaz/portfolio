@@ -1,0 +1,52 @@
+@import '../styles/varaibles.scss';
+.teamContainer {
+    padding: 5rem 0;
+    h1 {
+        text-align: center;
+        font-size: $Font40px;
+        color: $blue;
+        font-weight: $font-weight-very-strong;
+        margin-bottom: 1rem;
+    }
+    .contentCenter{
+      margin: 0px -15px 48px
+    }
+    .teamNames {
+      padding: 16px;
+    }
+    .UnderTitle {
+        font-size: 1.25rem;
+        text-align: center;
+        color: $grey;
+        line-height: 1.7;
+        font-weight: $font-weight-light;
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    .contentBox {
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%;
+        margin: 0 auto;
+        }
+        img {
+          width: 255px;
+          height: 255px;
+        }
+        h3 {
+          font-size: $medium-font-size;
+        }
+        span {
+          text-transform: uppercase;
+          color: $grey;
+          opacity: 0.3;
+          font-size: 0.8rem;
+          letter-spacing: .05rem;
+        }
+        .teamBox {
+        margin-bottom: 24px;
+        padding: 0 15px;
+        }
+
+}
